@@ -1,0 +1,33 @@
+#cabecalho{
+	border-color:#131313;
+	border-bottom:1px solid black;
+
+}
+
+#titulo{
+	margin-top:30px;
+}
+
+#conteudo table{
+	font-size:13px;
+	border-collapse:colapse;
+
+	width:100%;
+
+}
+#conteudo table th{
+	background-color:#274e13;
+	color:#ffffff;
+}
+
+h3{
+	 visibility: hidden;
+ }
+
+#graficos{
+
+	width:100%;
+}
+#grficos tr{
+	height: 200px;
+}

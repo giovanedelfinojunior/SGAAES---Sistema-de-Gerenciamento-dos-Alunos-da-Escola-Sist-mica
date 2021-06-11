@@ -1,0 +1,311 @@
+*{
+
+}
+body{
+		background-color: #ccc;
+		margin: 0px auto;
+}
+div#topo {
+	background-color: #274e13;
+  text-align: center;
+	width: 100%;
+	height: 140px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.43);
+}
+.btnlogout{
+  width: 59px;
+  height: 23px;
+  font-size: 15px;
+  background-color: #D8D8D8;
+  border: 2px solid #D8D8D8;
+  float: right;
+  display: inline;
+  cursor: pointer;
+  margin-left: 6px;
+  margin-top: 24px;
+  margin-right: 10px;
+}
+
+.btnlogout:hover{
+	background-color: #C8C8C8;
+	border-color: #C8C8C8;
+}
+.btnpdf{
+	font: normal 20px Verdana, Geneva, sans-serif;
+	font-style: normal;
+	color: #000000;
+	background: #f5f5f5;
+	border: 1px solid #bbb;
+	text-shadow: 0px 1px 0px #fff;
+	box-shadow: 0px 1px 10px #d1cfd1;
+	-moz-box-shadow: 0px 1px 10px #d1cfd1;
+	-webkit-box-shadow: 0px 1px 10px #d1cfd1;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	width: 45px;
+	height: 50px;
+	padding: 0px;
+	padding-top: 4px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+.bntpdf:active{
+	cursor:pointer;
+	position:relative;
+	top:2px;
+}
+header h4{
+  font-weight: normal;
+	float:right;
+	display: inline;
+	font-size: 15px;
+	margin-top: 26px;
+  color:#ffffff;
+  text-decoration: none;
+}
+div#topo span {
+	position: absolute;
+	text-align: center;
+	color: #ffffff;
+	font-size: 40px;
+	line-height: 133px;
+	font-family: cursive;
+	display: inline;
+	left: 358px;
+}
+div#logo{
+  position: absolute;
+  left: 140px;
+	top: 213px;
+}
+div#logo1{
+	position: absolute;
+	float: left;
+	top: 9px;
+	left: 20px;
+	background-color: #FFFFFF;
+	width: 91px;
+	height: 123px;
+	display:inline;
+}
+div #logo1 img{
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(12, 12, 12, 0.45);
+  margin-top: 1px;
+  margin-left: -2px;
+}
+div #logo1 img:hover{
+  	background-color: #C8C8C8;
+  	border-color: #C8C8C8;
+}
+#navegacao {
+	z-index: 8000;
+  margin-top: 15px;
+  position: absolute;
+  top: 89px;
+  left: 510px;
+  background-color: white;
+  text-align: initial;
+}
+#navegacao ul {
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+#navegacao ul a{
+	display: block;
+	color: rgba(0, 0, 0, 0.61);
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 32px;
+	padding: 0 15px;
+}
+#navegacao ul li{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+#navegacao ul li:hover{
+  background-color: #C8C8C8;
+  border-color: #C8C8C8;
+}
+#navegacao ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+#navegacao ul ul li{
+	float: none;
+	border: 1px solid rgba(0, 0, 0, 0.28);
+	border-top: none;
+	width: 200px;
+}
+
+#navegacao ul ul a{
+	line-height:120%;
+	padding:10px 15px
+}
+#navegacao ul li:hover > ul{
+	display:block
+}
+#title{
+  font-size: 26px;
+  font-family: cursive;
+  text-align: center;
+	padding-top:70px;
+}
+#controle{
+	 height: 500px;
+	 overflow: auto;
+}
+div#conteudo{
+	margin: auto;
+	background-color: #ffffff;
+	width: 80%;
+	min-height: 485px;
+	padding-top: 15px;
+
+}
+div#conteudo fieldset{
+	width:350px;
+	margin: 0px auto;
+	font-size:13px;
+	border: 4px solid rgb(39, 78, 19);
+	background-color: rgba(10, 10, 10, 0.05);
+	box-shadow: 3px 3px 4px #888888;
+}
+
+div#conteudo div#mensagens {
+  background-color: rgba(0, 0, 0, 0.02);
+  text-align: center;
+  color: darkgrey;
+  width: 234px;
+  margin: 0px auto;
+  font-size: 13px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  font-size: 17px;
+  font-family: monospace;
+
+}
+div#conteudo div#mensagens img{
+  display: block;
+  width:60px;
+  height:60px;
+  margin:0px auto;
+  padding-top: 10px;
+}
+
+div#conteudo fieldset table{
+	background-color: rgba(10, 10, 10, 0.05);
+	margin: 0px auto;
+	min-width:400px;
+	min-height:30px;
+	border-color: #000000;
+	border-collapse: collapse;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+div#conteudo fieldset table th{
+	color:#ffffff;
+	background-color:rgb(39, 78, 19);
+}
+div#conteudo fieldset span{
+	position: relative;
+	left: 95px;
+}
+.retornar {
+	background-color: rgba(105, 113, 101, 0.19);
+	border: 1px solid darkgrey;
+	text-decoration: none;
+	color: black;
+	padding: 6px;
+	position: relative;
+	left: 512px;
+	top: 20px;
+}
+
+.retornar:hover{
+	border: 1px solid #656565;
+}
+span#button{
+	margin:auto 0px;
+}
+fieldset table img {
+	max-height: 20px;
+	margin: 5px;
+	display: inline;
+}
+
+.telafundo {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+
+.estrutura {
+  width:375px;
+  height:375px;
+  padding:10px;
+}
+
+.janela {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:500px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+
+.fecharcaixaimg{
+	color: #FFFFFF;
+	display:block;
+	text-align:right;
+	text-decoration: none;
+}
+
+div#Buscar{
+	background-color:#FFFFF;
+	border:solid 1px;
+	border-radius:25px;
+	width:200px;
+}
+
+#txtbuscar{
+	float:left;
+	/*background-color:transparent;*/
+	font-style:italic;
+	font-size:18px;
+	padding:10px;
+	border:none;
+	height:10px;
+	width:200px;
+}
+
+footer{
+	width: 100%;
+	height: 30px;
+	background-color: #274E13;
+	position: absolute;
+	bottom: 0;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	color: #FFFBFB;
+	line-height: 30px;
+	box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.43);
+}
